@@ -1,24 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio PROJETOS</title>
     <link rel="stylesheet" href="/style/style.css">
 </head>
+
 <body>
     <header class="cabecalho">
-        <img src="/assets/logo.png" alt="logo do site" class="logo" class="logo">
+        <a href="index.html" class="cabecalho__logo">
+            <img src="/assets/logo.png" alt="logo do site" class="logo" class="logo">
+        </a>
         <h1 class="cabecalho__titulo">
             <span>P</span><span>o</span><span>r</span><span>t</span><span>o</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o</span>
             <span>D</span><span>i</span><span>g</span><span>i</span><span>t</span><span>a</span><span>l</span>
-            <span>D</span><span>e</span><span>v</span> 
+            <span>D</span><span>e</span><span>v</span>
             <span>A</span><span>i</span><span>r</span><span>o</span><span>n</span>
         </h1>
-        <nav class="cabecalho__menu">         
-                    <a href="index.html" class="cabecalho__menu_link">Home</a>
-                    <a href="sobremim.html" class="cabecalho__menu_link">Sobremim</a>
-                    
+        <nav class="cabecalho__menu">
+            <a href="index.html" class="cabecalho__menu_link">Home</a>
+            <a href="sobremim.html" class="cabecalho__menu_link">Sobremim</a>
+
     </header>
+    <main>
+        <div class="apresentacao__descricao">
+            <h1 class="apresentacao__conteudo__titulo">Porjetos</h1>
+            <p class="apresentacao__conteudo__texto">Estes são alguns dos meus projetos</p>
+        </div>
+
+        <section class="apresentacao__projetos">
+            <div class="apresentacao__projetos__projeto">
+                <a href="https://super-secret-friends-alura-challenge.vercel.app/">
+                    <img src="/assets/img_projetos/projeto1.png" alt="projeto 1"
+                        class="apresentacao__projetos__projeto__imagem" />
+                </a>
+                <h2 class="apresentacao__projetos__projeto__titulo">Projeto Amigo secreto</h2>
+                <p class="apresentacao__projetos__projeto__descricao">Modo iterativo de brincade de amigo secreto</p>
+            </div>
+            <div class="apresentacao__projetos__projeto">
+                <a href="https://mxqb4aqtx8q3u5mtirc7bt.streamlit.app/">
+                    <img src="/assets/img_projetos/açoes_app.png" alt="projeto 2"
+                        class="apresentacao__projetos__projeto__imagem" />
+                </a>
+                <h2 class="apresentacao__projetos__projeto__titulo">Analisador de Ações</h2>
+                <p class="apresentacao__projetos__projeto__descricao">Aplicativos simples de analise de ações da B3.
+                    aplicativo criado com PYTHON, PANDAS, STREAMLIT</p>
+            </div>
+
+            <div class="apresentacao__projetos__projeto">
+                <a href="apresentacao__projetos__projeto" class="apresentacao__projetos__projeto__link">
+                    <img src="/assets//img_projetos/numero_secreto.png" alt="projeto 3"
+                        class="apresentacao__projetos__projeto__imagem" />
+                </a>
+                <h2 class="apresentacao__projetos__projeto__titulo">Jogo do numero secreto</h2>
+                <p class="apresentacao__projetos__projeto__descricao">jogo de adivinhação de numero, utilizando
+                    JavaScript</p>
+            </div>
+
+        </section>
+
+
+    </main>
+    <footer class="rodape">
+        <p>
+            Desenvolvido por <strong class="apresentacao__conteudo__texto_nome_rodape">Airon Silva</strong>, com o curso
+            de HTML e CSS da <strong>Alura</strong>
+        </p>
+    </footer>
 </body>
+
 </html>

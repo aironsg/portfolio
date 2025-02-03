@@ -104,6 +104,7 @@ body{
 }
 
 .rodape{
+    width: 100%;
     padding: 24px;
     color: #000000;
     background-color: #22D4FD;
@@ -126,6 +127,7 @@ body{
     align-items: center;
     padding: 24px;
 }
+
 
 
 .cabecalho__titulo {
@@ -196,3 +198,86 @@ body{
     color: #ee840a;
     font-style: italic;
 }
+
+.apresentacao__perfil_sobremim{
+    width: 515px;
+    height: 715px;
+    border-radius: 30%;
+}
+
+/*pagina de projetos*/
+
+
+.apresentacao__descricao{
+    text-align: center;
+    align-items: center;
+}
+.apresentacao__projetos{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.projetos {
+    text-align: center;
+    padding: 50px 20px;
+}
+.apresentacao__projetos__projeto{
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.apresentacao__projetos__projeto__imagem{
+    width: 515px;
+    height: 715px;
+    border-radius: 10%;
+    
+}
+.apresentacao__projetos__projeto__link{
+    text-decoration: none;
+
+}
+
+.projetos__titulo {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.apresentacao__projetos__projeto__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto_frase_motivacao{
+    color: #ee840a;
+}
+
+.apresentacao__conteudo__texto_contato{
+    color: #27b30b;
+}
+.apresentacao__projetos__projeto__descricao{
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Krona One', sans-serif;
+    color: #ee840a;
+}
+
+.projetos__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projeto {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+
